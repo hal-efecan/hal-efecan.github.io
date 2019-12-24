@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Ubuntu', sans-serif;
+}
+
+.container-one {
+    height: 250px;
+    display: flex;
+    background-color: rgb(49, 49, 49);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        height: 300px;
+    }
+
+    @media (min-width: 1050px) {
+        height: 100%;
+        position: fixed;
+        width: 30%;
+        top:0;
+        left:0;
+    }
+
+    .icons {
+        display: flex;
+        margin-top: 8px;
+
+        .icon {
+            color: white;
+            margin-left: 10px;
+        }
+    }
+
+    .hal {
+        width: 100px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+
+    .sub-title {
+        text-align: center;
+        color: white;
+        margin-top: 15px;
+        font-size: 1.35rem;
+        font-weight: bold;
+        padding: 0 18px 0 18px; 
+    }
+}
+
+.container-two {
+
+    @media (min-width: 1050px) {
+        margin-left: 30%;
+    }
+
+    .intro {
+        height: 175px;
+        padding: 15px;
+        text-align: center;
+        display: none;
+
+        @media (min-width: 1050px) {
+            display: block;
+        }
+
+        p {
+            font-size: 1.65rem;
+            font-weight: bold;
+            padding: 0 5px 0 5px;
+
+            @media (min-width: 1050px) {
+                font-size: 2.5rem;
+            }
+        }
+
+        .oth {
+            font-size: 0.95rem;
+            margin-top: 10px;
+
+            @media (min-width: 768px) {
+                font-size: 1.35rem;
+                margin-top: 15px;
+            }
+
+            @media (min-width: 1050px) {
+                font-size: 1.5rem;
+                padding: 0 50px 0 50px;
+            }
+        }
+    }
+
+    .portfolio {
+        display: block;
+
+        @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (min-width: 1050px) {
+            margin-top: 50px;
+        }
+
+        .row {
+            position: relative;
+            margin-top: 20px;
+
+            .card1, .card2, .card3, .card4, .card5, .card6 {
+                grid-area: "c1";
+                text-align: center;
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    .card-height {
+        height: 130px;
+    }
+}
+
+
