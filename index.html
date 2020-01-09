@@ -4,155 +4,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <script src="https://kit.fontawesome.com/266027f4aa.js" crossorigin="anonymous"></script>
-    <title>Hal Efecan</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Document</title>
 </head>
 <body>
 
-    <div class="container-one">
-            <img src="./assets/hal.jpeg" alt="hal" class="hal">
-            <div class="sub-title">Hal Efecan<br />
-            JavaScript developer</div>
-            <div class="icons">
-                <a href="https://github.com/hal-efecan"><i class="fab fa-github-square fa-2x icon"></i></a>
-                <a href="https://www.linkedin.com/in/halil-efecan-b4150936/"><i class="fab fa-linkedin fa-2x icon"></i></a>
-            </div> 
-    </div>
+    <header>
+        <ul>
+            <li class="headLink"><a href="https://www.linkedin.com/in/halil-efecan-b4150936/" target="_blank">LinkedIn</a></li>
+            <li class="headLink"><a href="https://github.com/hal-efecan" target="_blank">GitHub</a></li>
+            <li class="headLink"><a href="https://www.instagram.com/hal19_87/" target="_blank">Instagram</a></li>
+        </ul>
+    </header>
 
-    <div class="container-two">
+    <section class="section-one">
+        <div class="headline">
+            <div class="hey">Hi there!</div>
+            <img src="./assets/waving.svg" alt="waving" class="waving">
+            <img src="./assets/hal.jpeg" class="hide" id="hal" alt="hal" width="270px">
+        </div>
+        <p>I’m <span class="name">Hal</span> - 
+        a design minded front-end developer 
+        that enjoys building beautiful and engaging interfaces & experiences.
+        </p>
+        <h3 class="contact">Get in-touch: <span class="email">hefecan@gmail.com</span></h3>
+    </section>
 
-        <section class="portfolio">
+    <section class="section-two">
+        <div class="section-title">BACKGROUND</div>
+            <div class="section-content">
+                <p>
+                    Currently freelancing and building personal projects.
+                    Originally an <strong style="color:white">BSc Economics</strong> graduate from <a href="https://www.qmul.ac.uk/" target="_blank">Queen Mary, University of London</a> i've worked in fashion buying & collection merchandising for
+                    brands such as <a href="https://www.alexandermcqueen.com" target="_blank">Alexander McQueen</a>, <a href="https://www.belstaff.co.uk/" target="_blank">Belstaff</a>, <a href="https://www.ralphlauren.co.uk/" target="_blank">Ralph Lauren</a> & 
+                    <a href="https://www.libertylondon.com/" target="_blank">LibertyLondon</a>.
+                </p>
+                <p>
+                    Having worked hand in hand with designers in the fashion industry i have gained an inherent understanding 
+                    & appriciation for concept driven design and decided to take my expreience
+                    and apply this to the digital space.
+                </p>
+            </div>
+        </div>
+    </section>
 
-            <div class="row">
-                <div class="col s12 m11 l11 card1">
-                <div class="card">
-                    <div class="card-image">
-                    <img src="./assets/arrows.jpg" height="300px">
-                    <span class="card-title"></span>
-                    </div>
-                    <div class="card-content card-height">
-                    <p>This is a JavaScript/Sass based project that makes use of Swiper.Js to give users
-                        a visually compelling 3D swiping effect. Optimised for smaller devices.
-                    </p>
-                    </div>
-                    <div class="card-action">
-                    <a href="https://hal-efecan.github.io/3dswiper/">Swiper</a>
-                    <a href="https://github.com/hal-efecan/3dswiper">Code</a>
-                    </div>
+    <section class="section-three anim">
+        <div class="section-three-title">SKILLS</div>
+
+        <div class="section-three-content">
+
+            <ul>
+                <div class="skill-label">Language</div>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS/SASS</li>
+                <li>Python</li>
+                <li>Node</li>
+            </ul>
+
+            <ul>
+                <div class="skill-label">Framework</div>
+                <li>React</li>
+                <li>Express</li>
+                <li>Handlebars</li>
+                <li>EJS</li>
+            </ul>
+
+            <ul>
+                <div class="skill-label">Tools</div>
+                <li>Git & GitHub</li>
+                <li>Bash</li>
+                <li>PostMan/ Insomnia</li>
+                <li>MongoDB</li>
+                <li>Firebase</li>
+                <li>Figma</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="section-four">
+
+        <div class="section-four-title anim">PROJECTS</div>
+        <div class="section-four-content">
+
+            <div class="project-container anim">
+                <div class="top-label">
+                    <h3>Swiper.JS</h3>
+                    <a href="https://hal-efecan.github.io/3dswiper/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
                 </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m11 l11 card2">
-                <div class="card">
-                    <div class="card-image">
-                    <img src="./assets/gameslist.jpg" height="300px">
-                    <span class="card-title"></span>
-                    </div>
-                    <div class="card-content card-height">
-                    <p>This is an authentication based app made using googles firebase
-                        and Materilize CSS. Firebase - authentication/ firestore & functions services.
-                    </p>
-                    </div>
-                    <div class="card-action">
-                    <a href="https://hal-efecan.github.io/gameslist/">Games-List</a>
-                    <a href="https://github.com/hal-efecan/gameslist">Code</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m11 l10 card3">
-                <div class="card">
-                    <div class="card-image">
-                    <img src="./assets/ssa.jpg">
-                    <span class="card-title"></span>
-                    </div>
-                    <div class="card-content card-height">
-                    <p>This project demonstrates how to use server side tech to signup, validate & securely
-                        authenticate users and to then render a dynamic html/handlebars page.
-                    </p>
-                    </div>
-                    <div class="card-action">
-                    <a href="https://desolate-dusk-18219.herokuapp.com/">Server-Side-Auth</a>
-                    <a href="https://github.com/hal-efecan/nodejs-server-side-auth">Code</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m11 l10 card4">
-                <div class="card">
-                    <div class="card-image">
-                    <img src="./assets/magiccards.jpg">
-                    <span class="card-title"></span>
-                    </div>
-                    <div class="card-content card-height">
-                    <p>Magic cards is a JavaScript oriented project. It's aim is to shuffle a 
-                        deck of cards and then re-sort into the original order using only vanilla JavaScript.
-                    </p>                   
-                    </div>
-                    <div class="card-action">
-                    <a href="https://hal-efecan.github.io/magic-card-trick-test/">Magic-cards</a>
-                    <a href="https://github.com/hal-efecan/magic-card-trick-test">Code</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m11 l10 card5">
-                <div class="card">
-                    <div class="card-image">
-                    <img src="./assets/todovjs.jpg">
-                    <span class="card-title"></span>
-                    </div>
-                    <div class="card-content card-height">
-                    <p>A relatively straight forward to-do based application with a focus on
-                        vanilla JavaScript.
-                    </p>
-                    </div>
-                    <div class="card-action">
-                    <a href="https://hal-efecan.github.io/VanillaJSTodoApp/">vanilla-js-to-do</a>
-                    <a href="https://github.com/hal-efecan/VanillaJSTodoApp">Code</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m11 l10 card6">
-                <div class="card">
-                    <div class="card-image">
-                    <img src="./assets/quiz.jpg">
-                    <span class="card-title"></span>
-                    </div>
-                    <div class="card-content card-height">
-                    <p>A quiz application demonstrating JavaScript competency using
-                        object oriented programming.
-                    </p>
-                    </div>
-                    <div class="card-action">
-                    <a href="https://hal-efecan.github.io/VanillaJSQuizApp/">oop-vanillajs-quiz</a>
-                    <a href="https://github.com/hal-efecan/VanillaJSQuizApp">Code</a>
-                    </div>
-                </div>
-                </div>
+                <p>
+                    This is a JavaScript/Sass based project that makes use of Swiper.Js to give users
+                    a visually interesting 3D swiping effect. Optimised for smaller devices.
+                </p>
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                </ul>
             </div>
 
-        </section>
+            <div class="project-container anim">
+                <div class="top-label">
+                    <h3>Games List</h3>
+                    <a href="https://hal-efecan.github.io/gameslist/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                </div>
+                <p>
+                    This is an authentication based app made using googles firebase
+                    and Materilize CSS. Firebase - authentication/ firestore & functions services.
+                </p>                
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                    <li>Firestore</li>
+                    <li>Firebase Auth</li>
+                    <li>Materialize UI</li>
+                </ul>
+            </div>
 
-    </div>  
+            <div class="project-container anim">
+                <div class="top-label">
+                    <h3>Server Side Auth</h3>
+                    <a href="https://desolate-dusk-18219.herokuapp.com/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                </div>
+                <p>
+                    This project demonstrates how to use server side tech to signup, validate & securely
+                    authenticate users and to then render a dynamic html/handlebars page.
+                </p>
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                    <li>Node.JS</li>
+                    <li>Handlebars</li>
+                    <li>Bcrypt</li>
+                    <li>Passport.JS</li>
+                </ul>
+            </div>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+            <div class="project-container anim">
+                <div class="top-label">
+                    <h3>Magic cards</h3>
+                    <a href="https://hal-efecan.github.io/magic-card-trick-test/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                </div>
+                <p>
+                    Magic cards is a JavaScript oriented project. It's aim is to shuffle a 
+                    deck of cards and then re-sort into the original order using only vanilla JavaScript.
+                </p>
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                    <li>Cypress</li>
+                </ul>
+            </div>
+
+            <div class="project-container anim">
+                <div class="top-label">
+                    <h3>Todo - Vanilla JS</h3>
+                    <a href="https://hal-efecan.github.io/VanillaJSTodoApp/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon">
+                    </div></a>
+                <p>
+                    A relatively straight forward to-do based application with a focus on
+                    vanilla JavaScript.
+                </p>
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="project-container anim">
+                <div class="top-label">
+                    <h3>Quiz - Vanilla JS</h3>
+                    <a href="https://hal-efecan.github.io/VanillaJSQuizApp/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                </div>
+                <p>
+                    A quiz application demonstrating JavaScript competency using
+                    object oriented programming.
+                </p>
+                <ul class="tags">
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+            <p>Designed & developed by <br> Hal Efecan 2019</p>
+    </footer>
+
+    <script src="./javascript/main.js"></script>
 
 </body>
 </html>
