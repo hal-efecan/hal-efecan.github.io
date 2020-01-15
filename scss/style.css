@@ -107,7 +107,7 @@ header {
   display: block;
   width: 65%;
   background-color: #25273b;
-  position: absolute;
+  position: fixed;
   border-left: 1px solid white;
   top: 0;
   bottom: 0;
