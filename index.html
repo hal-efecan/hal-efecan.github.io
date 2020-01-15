@@ -5,32 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./scss/style.css">
-    <title>Document</title>
+    <title>Hal Efecan</title>
 </head>
 <body>
 
     <header>
-        <ul>
-            <li class="headLink"><a href="https://www.linkedin.com/in/halil-efecan-b4150936/" target="_blank">LinkedIn</a></li>
-            <li class="headLink"><a href="https://github.com/hal-efecan" target="_blank">GitHub</a></li>
-            <li class="headLink"><a href="https://www.instagram.com/hal19_87/" target="_blank">Instagram</a></li>
-        </ul>
+
+        <nav class="nav-large">
+            <ul class="ul-large">
+                <li class="headLink"><a href="https://www.linkedin.com/in/halil-efecan-b4150936/" target="_blank">LinkedIn</a></li>
+                <li class="headLink"><a href="https://github.com/hal-efecan" target="_blank">GitHub</a></li>
+                <li class="headLink"><a href="https://www.instagram.com/hal19_87/" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="burger1"></div>
+            <div class="burger2"></div>
+            <div class="burger3"></div>
+        </div>
+
+        <nav class="nav-small-hide">
+            <ul class="ul-small">
+                <li class="headLink"><a href="https://www.linkedin.com/in/halil-efecan-b4150936/" target="_blank">LinkedIn</a></li>
+                <li class="headLink"><a href="https://github.com/hal-efecan" target="_blank">GitHub</a></li>
+                <li class="headLink"><a href="https://www.instagram.com/hal19_87/" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <section class="section-one">
         <div class="headline">
             <div class="hey">Hi there!</div>
             <img src="./assets/waving.svg" alt="waving" class="waving">
-            <img src="./assets/hal.jpeg" class="hide" id="hal" alt="hal" width="270px">
+
         </div>
         <p>I’m <span class="name">Hal</span> - 
         a design minded front-end developer 
         that enjoys building beautiful and engaging interfaces & experiences.
         </p>
-        <h3 class="contact">Get in-touch: <span class="email">hefecan@gmail.com</span></h3>
+        <img src="./assets/hal.jpeg" class="hide" id="hal" alt="hal" width="200px">
+        <img src="./assets/hal.jpeg" class="hide" id="largeHal" alt="hal" width="200px">
+        <h3 class="contact hide">Get in-touch: <span class="email">hefecan@gmail.com</span></h3>
+
     </section>
 
-    <section class="section-two">
+    <section class="hide" id="section-two">
         <div class="section-title">BACKGROUND</div>
             <div class="section-content">
                 <p>
@@ -48,12 +69,13 @@
         </div>
     </section>
 
-    <section class="section-three anim">
+    <section class="hide" id="section-three">
+        
         <div class="section-three-title">SKILLS</div>
 
         <div class="section-three-content">
 
-            <ul>
+            <ul class="anim">
                 <div class="skill-label">Language</div>
                 <li>JavaScript</li>
                 <li>HTML</li>
@@ -62,7 +84,7 @@
                 <li>Node</li>
             </ul>
 
-            <ul>
+            <ul class="anim">
                 <div class="skill-label">Framework</div>
                 <li>React</li>
                 <li>Express</li>
@@ -70,7 +92,7 @@
                 <li>EJS</li>
             </ul>
 
-            <ul>
+            <ul class="anim">
                 <div class="skill-label">Tools</div>
                 <li>Git & GitHub</li>
                 <li>Bash</li>
@@ -83,7 +105,7 @@
         </div>
     </section>
 
-    <section class="section-four">
+    <section class="hide" id="section-four">
 
         <div class="section-four-title anim">PROJECTS</div>
         <div class="section-four-content">
@@ -119,7 +141,7 @@
                     <li>JavaScript</li>
                     <li>Firestore</li>
                     <li>Firebase Auth</li>
-                    <li>Materialize UI</li>
+                    <!-- <li>Materialize UI</li> -->
                 </ul>
             </div>
 
@@ -195,11 +217,10 @@
         </div>
     </section>
 
-    <footer>
-            <p>Designed & developed by <br> Hal Efecan 2019</p>
+    <footer class="hide" id="footer">
+        <p>Designed & developed by <br> Hal Efecan 2019</p>
     </footer>
-
+    
     <script src="./javascript/main.js"></script>
-
 </body>
 </html>
