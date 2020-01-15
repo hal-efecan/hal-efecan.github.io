@@ -7,10 +7,9 @@ body {
     background-color: darken($color: rgb(37, 39, 59), $amount: 8%);
     font-family: 'Ubuntu', sans-serif;
 }
-
 header {
     display: flex;
-    justify-content: end;
+    // justify-content: end;
 }
 
 // Large screens
@@ -190,7 +189,7 @@ header {
 // Sections
 .section-one {
     // width: 100%;
-    margin: 0px 10px 0px 15px;
+    margin: 40px 10px 0px 15px;
     // background-color: firebrick;
     position: relative;
 
@@ -566,7 +565,9 @@ header {
 
 // Burger
 .container {
-    position: relative;
+    position: fixed;
+    right: 0;
+    top: 0;
     height: 30px;
     width: 30px;
     z-index: 2;
@@ -578,6 +579,7 @@ header {
         display: none;
     }
   }
+
   .container:hover {
       cursor: pointer;
   }
