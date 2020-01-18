@@ -1015,6 +1015,8 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 30px auto 0 auto;
+  -webkit-animation: appear 500ms;
+          animation: appear 500ms;
 }
 
 @media (min-width: 768px) {
