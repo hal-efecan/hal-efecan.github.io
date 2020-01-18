@@ -1,0 +1,41 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexBetween($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexEnd($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@mixin flexAround($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-around;
+    align-items: center;
+}
+
+// Nav Color Mixins
+@mixin nav-themeA {
+    background-color: navigation-color(navigation-colorA);
+    border-left: 3px solid rgb(194, 194, 194);
+}
+@mixin nav-themeB {
+    background-color: navigation-color(navigation-colorB);
+    border-left: 3px solid rgb(165, 165, 165);
+}
+@mixin nav-themeC {
+    background-color: navigation-color(navigation-colorC);
+    border-left: 3px solid white;
+}

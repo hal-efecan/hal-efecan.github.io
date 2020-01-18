@@ -9,218 +9,206 @@
 </head>
 <body>
 
-    <header>
+    <div class="container">
+        <header>
+            <div class="burger">
+                <div class="burger__burger1"></div>
+                <div class="burger__burger2"></div>
+                <div class="burger__burger3"></div>
+            </div>
 
-        <nav class="nav-large">
-            <ul class="ul-large">
-                <li class="headLink"><a href="https://www.linkedin.com/in/halil-efecan-b4150936/" target="_blank">LinkedIn</a></li>
-                <li class="headLink"><a href="https://github.com/hal-efecan" target="_blank">GitHub</a></li>
-                <li class="headLink"><a href="https://www.instagram.com/hal19_87/" target="_blank">Instagram</a></li>
-            </ul>
-        </nav>
+            <nav class="hide navigation-large" id="nav">
+                <ul class="navigation__ul navigation-large__ul">
+                    <li class="navigation__ul__link"><a href="https://www.linkedin.com/in/halil-efecan-b4150936/" target="_blank">LinkedIn</a></li>
+                    <li class="navigation__ul__link"><a href="https://github.com/hal-efecan" target="_blank">GitHub</a></li class="headLink">
+                    <li class="navigation__ul__link"><a href="https://www.instagram.com/hal19_87/" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
 
-        <div class="container">
-            <div class="burger1"></div>
-            <div class="burger2"></div>
-            <div class="burger3"></div>
-        </div>
+        </header>
+        <section class="section-one">
 
-        <nav class="nav-small-hide">
-            <ul class="ul-small">
-                <li class="headLink"><a href="https://www.linkedin.com/in/halil-efecan-b4150936/" target="_blank">LinkedIn</a></li>
-                <li class="headLink"><a href="https://github.com/hal-efecan" target="_blank">GitHub</a></li>
-                <li class="headLink"><a href="https://www.instagram.com/hal19_87/" target="_blank">Instagram</a></li>
-            </ul>
-        </nav>
+            <div class="section-one__headline">
+                <div class="section-one__headline__hey">Hi there!</div>
+                <img src="./assets/waving.svg" alt="waving" class="section-one__headline__waving">
+            </div>
 
-    </header>
+            <p class="section-one__paragraph">I’m <span class="section-one__paragraph__name">Hal</span> - 
+            a design minded front-end developer 
+            that enjoys building beautiful and engaging interfaces & experiences.
+            
+            </p>
+            
 
-    <section class="section-one">
-        <div class="headline">
-            <div class="hey">Hi there!</div>
-            <img src="./assets/waving.svg" alt="waving" class="waving">
+            <img src="./assets/hal.jpeg" class="hide" id="smlHal" alt="hal" width="200px">
+            <img src="./assets/hal.jpeg" class="hide" id="lrgHal" alt="hal" width="200px">
 
-        </div>
-        <p>I’m <span class="name">Hal</span> - 
-        a design minded front-end developer 
-        that enjoys building beautiful and engaging interfaces & experiences.
-        </p>
-        <img src="./assets/hal.jpeg" class="hide" id="hal" alt="hal" width="200px">
-        <img src="./assets/hal.jpeg" class="hide" id="largeHal" alt="hal" width="200px">
-        <h3 class="contact hide">Get in-touch: <span class="email">hefecan@gmail.com</span></h3>
+            <h3 class="hide" id="contact">Get in-touch: <span class="section-one__contact__email">hefecan@gmail.com</span></h3>
 
-    </section>
-
-    <section class="hide" id="section-two">
-        <div class="section-title">BACKGROUND</div>
-            <div class="section-content">
-                <p>
+        </section>
+        <section class="hide" id="section-two">
+            <div class="section-two__title">BACKGROUND</div>
+            <div class="section-two__content">
+                <p class="section-two__content__paragraph">
                     Currently freelancing and building personal projects.
                     Originally an <strong style="color:white">BSc Economics</strong> graduate from <a href="https://www.qmul.ac.uk/" target="_blank">Queen Mary, University of London</a> i've worked in fashion buying & collection merchandising for
                     brands such as <a href="https://www.alexandermcqueen.com" target="_blank">Alexander McQueen</a>, <a href="https://www.belstaff.co.uk/" target="_blank">Belstaff</a>, <a href="https://www.ralphlauren.co.uk/" target="_blank">Ralph Lauren</a> & 
                     <a href="https://www.libertylondon.com/" target="_blank">LibertyLondon</a>.
                 </p>
-                <p>
+                <p class="section-two__content__paragraph">
                     Having worked hand in hand with designers in the fashion industry i have gained an inherent understanding 
                     & appriciation for concept driven design and decided to take my expreience
                     and apply this to the digital space.
                 </p>
             </div>
-        </div>
-    </section>
-
-    <section class="hide" id="section-three">
-        
-        <div class="section-three-title">SKILLS</div>
-
-        <div class="section-three-content">
-
-            <ul class="anim">
-                <div class="skill-label">Language</div>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS/SASS</li>
-                <li>Python</li>
-                <li>Node</li>
-            </ul>
-
-            <ul class="anim">
-                <div class="skill-label">Framework</div>
-                <li>React</li>
-                <li>Express</li>
-                <li>Handlebars</li>
-                <li>EJS</li>
-            </ul>
-
-            <ul class="anim">
-                <div class="skill-label">Tools</div>
-                <li>Git & GitHub</li>
-                <li>Bash</li>
-                <li>PostMan/ Insomnia</li>
-                <li>MongoDB</li>
-                <li>Firebase</li>
-                <li>Figma</li>
-            </ul>
-
-        </div>
-    </section>
-
-    <section class="hide" id="section-four">
-
-        <div class="section-four-title anim">PROJECTS</div>
-        <div class="section-four-content">
-
-            <div class="project-container anim">
-                <div class="top-label">
-                    <h3>Swiper.JS</h3>
-                    <a href="https://hal-efecan.github.io/3dswiper/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
-                </div>
-                <p>
-                    This is a JavaScript/Sass based project that makes use of Swiper.Js to give users
-                    a visually interesting 3D swiping effect. Optimised for smaller devices.
-                </p>
-                <ul class="tags">
-                    <li>HTML</li>
-                    <li>SCSS</li>
+            <!-- </div> -->
+        </section>
+        <section class="hide" id="section-three">
+            
+            <div class="section-three__title">SKILLS</div>
+            <div class="section-three__content">
+                <ul class="section-three__content__ul anim">
+                    <div class="section-three__content__skill-label">Language</div>
                     <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS/SASS</li>
+                    <li>Python</li>
+                    <li>Node</li>
                 </ul>
-            </div>
-
-            <div class="project-container anim">
-                <div class="top-label">
-                    <h3>Games List</h3>
-                    <a href="https://hal-efecan.github.io/gameslist/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
-                </div>
-                <p>
-                    This is an authentication based app made using googles firebase
-                    and Materilize CSS. Firebase - authentication/ firestore & functions services.
-                </p>                
-                <ul class="tags">
-                    <li>HTML</li>
-                    <li>SCSS</li>
-                    <li>JavaScript</li>
-                    <li>Firestore</li>
-                    <li>Firebase Auth</li>
-                    <!-- <li>Materialize UI</li> -->
-                </ul>
-            </div>
-
-            <div class="project-container anim">
-                <div class="top-label">
-                    <h3>Server Side Auth</h3>
-                    <a href="https://desolate-dusk-18219.herokuapp.com/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
-                </div>
-                <p>
-                    This project demonstrates how to use server side tech to signup, validate & securely
-                    authenticate users and to then render a dynamic html/handlebars page.
-                </p>
-                <ul class="tags">
-                    <li>HTML</li>
-                    <li>SCSS</li>
-                    <li>JavaScript</li>
-                    <li>Node.JS</li>
+                <ul class="section-three__content__ul anim">
+                    <div class="section-three__content__skill-label">Framework</div>
+                    <li>React</li>
+                    <li>Express</li>
                     <li>Handlebars</li>
-                    <li>Bcrypt</li>
-                    <li>Passport.JS</li>
+                    <li>EJS</li>
+                </ul>
+                <ul class="section-three__content__ul anim">
+                    <div class="section-three__content__skill-label">Tools</div>
+                    <li>Git & GitHub</li>
+                    <li>Bash</li>
+                    <li>PostMan/ Insomnia</li>
+                    <li>MongoDB</li>
+                    <li>Firebase</li>
+                    <li>Figma</li>
                 </ul>
             </div>
+        </section>
+        <section class="hide" id="section-four">
 
-            <div class="project-container anim">
-                <div class="top-label">
-                    <h3>Magic cards</h3>
-                    <a href="https://hal-efecan.github.io/magic-card-trick-test/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+            <div class="section-four__title anim">PROJECTS</div>
+            <div class="section-four__content">
+
+                <div class="project-container anim">
+                    <div class="project-container__header-label">
+                        <h3>Swiper.JS</h3>
+                        <a href="https://hal-efecan.github.io/3dswiper/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                    </div>
+                    <p class="project-container__paragraph">
+                        This is a JavaScript/Sass based project that makes use of Swiper.Js to give users
+                        a visually interesting 3D swiping effect. Optimised for smaller devices.
+                    </p>
+                    <ul class="project-container__ul">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                    </ul>
                 </div>
-                <p>
-                    Magic cards is a JavaScript oriented project. It's aim is to shuffle a 
-                    deck of cards and then re-sort into the original order using only vanilla JavaScript.
-                </p>
-                <ul class="tags">
-                    <li>HTML</li>
-                    <li>SCSS</li>
-                    <li>JavaScript</li>
-                    <li>Cypress</li>
-                </ul>
-            </div>
 
-            <div class="project-container anim">
-                <div class="top-label">
-                    <h3>Todo - Vanilla JS</h3>
-                    <a href="https://hal-efecan.github.io/VanillaJSTodoApp/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon">
-                    </div></a>
-                <p>
-                    A relatively straight forward to-do based application with a focus on
-                    vanilla JavaScript.
-                </p>
-                <ul class="tags">
-                    <li>HTML</li>
-                    <li>SCSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-
-            <div class="project-container anim">
-                <div class="top-label">
-                    <h3>Quiz - Vanilla JS</h3>
-                    <a href="https://hal-efecan.github.io/VanillaJSQuizApp/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                <div class="project-container anim">
+                    <div class="project-container__header-label">
+                        <h3>Games List</h3>
+                        <a href="https://hal-efecan.github.io/gameslist/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                    </div>
+                    <p class="project-container__paragraph">
+                        This is an authentication based app made using googles firebase
+                        and Materilize CSS. Firebase - authentication/ firestore & functions services.
+                    </p>                
+                    <ul class="project-container__ul">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>Firestore</li>
+                        <li>Firebase Auth</li>
+                        <!-- <li>Materialize UI</li> -->
+                    </ul>
                 </div>
-                <p>
-                    A quiz application demonstrating JavaScript competency using
-                    object oriented programming.
-                </p>
-                <ul class="tags">
-                    <li>HTML</li>
-                    <li>SCSS</li>
-                    <li>JavaScript</li>
-                </ul>
+
+                <div class="project-container anim">
+                    <div class="project-container__header-label">
+                        <h3>Server Side Auth</h3>
+                        <a href="https://desolate-dusk-18219.herokuapp.com/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                    </div>
+                    <p class="project-container__paragraph">
+                        This project demonstrates how to use server side tech to signup, validate & securely
+                        authenticate users and to then render a dynamic html/handlebars page.
+                    </p>
+                    <ul class="project-container__ul">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>Node.JS</li>
+                        <li>Handlebars</li>
+                        <li>Bcrypt</li>
+                        <li>Passport.JS</li>
+                    </ul>
+                </div>
+
+                <div class="project-container anim">
+                    <div class="project-container__header-label">
+                        <h3>Magic cards</h3>
+                        <a href="https://hal-efecan.github.io/magic-card-trick-test/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                    </div>
+                    <p class="project-container__paragraph">
+                        Magic cards is a JavaScript oriented project. It's aim is to shuffle a 
+                        deck of cards and then re-sort into the original order using only vanilla JavaScript.
+                    </p>
+                    <ul class="project-container__ul">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>Cypress</li>
+                    </ul>
+                </div>
+
+                <div class="project-container anim">
+                    <div class="project-container__header-label">
+                        <h3>Todo - Vanilla JS</h3>
+                        <a href="https://hal-efecan.github.io/VanillaJSTodoApp/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon">
+                        </div></a>
+                    <p class="project-container__paragraph">
+                        A relatively straight forward to-do based application with a focus on
+                        vanilla JavaScript.
+                    </p>
+                    <ul class="project-container__ul">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="project-container anim">
+                    <div class="project-container__header-label">
+                        <h3>Quiz - Vanilla JS</h3>
+                        <a href="https://hal-efecan.github.io/VanillaJSQuizApp/" target="_blank"><img src="./assets/icons8-right-arrow-40.png" alt="arrow" width="28px" class="icon"></a>
+                    </div>
+                    <p class="project-container__paragraph">
+                        A quiz application demonstrating JavaScript competency using
+                        object oriented programming.
+                    </p>
+                    <ul class="project-container__ul">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
             </div>
+        </section>
+        <footer class="hide" id="footer">
+            <p class="footer__paragraph">Designed & developed by <br> Hal Efecan 2019</p>
+        </footer>
+    </div>
 
-        </div>
-    </section>
-
-    <footer class="hide" id="footer">
-        <p>Designed & developed by <br> Hal Efecan 2019</p>
-    </footer>
-    
-    <script src="./javascript/main.js"></script>
+    <script src="./javascript/app.js"></script>
 </body>
 </html>

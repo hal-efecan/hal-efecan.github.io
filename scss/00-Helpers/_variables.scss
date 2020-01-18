@@ -1,0 +1,29 @@
+// Layout colors
+$background-colors: (
+    background-colorA: #151622,
+    background-colorB: yellow,
+    background-colorC: purple,
+);
+$navigation-colors: (
+    navigation-colorA:  #1b1b1b,
+    navigation-colorB:  #55776b,
+    navigation-colorC:  #26545f,
+);
+$button-colors: (
+    button-colorA: #40e0d0,
+    button-colorB: #ffffff,
+);
+$text-colors: (
+    text-color-white:#ffffff,
+    text-color-turquise:#40e0d0,
+    text-color-blue: #0e5bea,
+    text-color-grey: #a3a3a3,
+);
+$font-weights: (
+    regular: 400,
+    medium: 500,
+    bold: 700
+);
+// Font family
+$primary-font: 'Ubuntu', sans-serif;
+$secondary-font: 'Roboto Mono', monospace;

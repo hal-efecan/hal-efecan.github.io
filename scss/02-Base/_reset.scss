@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: background-color(background-colorA);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hide {
+    display: none;
+}

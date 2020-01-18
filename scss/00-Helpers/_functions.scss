@@ -1,0 +1,15 @@
+@function background-color($color-name) {
+    @return map-get($background-colors, $color-name)
+};
+@function button-color($color-name) {
+    @return map-get($button-colors, $color-name)
+};
+@function navigation-color($color-name) {
+    @return map-get($navigation-colors, $color-name)
+};
+@function text-color($color-name) {
+    @return map-get($text-colors, $color-name)
+};
+@function font-weight($weight-name) {
+    @return map-get($font-weights, $weight-name)
+};
