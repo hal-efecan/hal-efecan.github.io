@@ -293,6 +293,10 @@ ul {
   list-style-type: none;
 }
 
+.container {
+  width: 97%;
+}
+
 @media (min-width: 950px) {
   .container {
     width: 90%;
