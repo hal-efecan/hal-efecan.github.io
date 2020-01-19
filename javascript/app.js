@@ -35,6 +35,14 @@ burgerMenu.addEventListener('click', () => {
     overlay.classList.toggle('overlay');
   })
 
+overlay.addEventListener('click', () => {
+    overlay.classList.remove('overlay');
+    nav.classList.remove('navigation');
+    burg1.classList.remove('burger__burger1-clicked')
+    burg2.classList.remove('burger__burger2-clicked')
+    burg3.classList.remove('burger__burger3-clicked')
+})
+
 // || SectionOne fadeIns ||
 
 // Hal sml screens
