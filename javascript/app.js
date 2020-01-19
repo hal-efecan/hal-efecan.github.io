@@ -24,7 +24,7 @@ const burg3 = document.querySelector('.burger__burger3')
 
 // Navigation
 const nav = document.querySelector('#nav')
-
+const overlay = document.querySelector('#overlay')
 // Burger click
 burgerMenu.addEventListener('click', () => {
     burg1.classList.toggle('burger__burger1-clicked')
@@ -32,6 +32,7 @@ burgerMenu.addEventListener('click', () => {
     burg3.classList.toggle('burger__burger3-clicked')
   
     nav.classList.toggle('navigation');
+    overlay.classList.toggle('overlay');
   })
 
 // || SectionOne fadeIns ||
