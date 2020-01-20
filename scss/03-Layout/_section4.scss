@@ -63,7 +63,7 @@
     color: rgb(163, 163, 163);
     font-size: 0.9rem;
     line-height: 1.65rem;
-    max-width: 95%;
+    max-width: 100%;
 
     @media (min-width: 768px) {
         width: 85%;
@@ -72,7 +72,8 @@
 
 .project-container__ul {
     display: flex;
-    max-width: 95%;
+    max-width: 100%;
+    flex-wrap: wrap;
 
     li {
         color: text-color(text-color-white);

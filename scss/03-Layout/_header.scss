@@ -1,9 +1,7 @@
 header {
     position: relative;
     @include flexEnd(row);
-    width: 97%;
     height: 60px;
-    //background-color: lightcoral;
 
     @media (min-width: 768px) {
         @include flexAround(row);
