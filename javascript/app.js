@@ -57,14 +57,14 @@ const largeHal = document.querySelector('#lrgHal')
 function showMe2() {
     largeHal.classList.replace('hide','section-one__showLrgHal')
 }
-setTimeout(showMe2, 1000)
+setTimeout(showMe2, 1750)
 
 // Contact
 const contact = document.querySelector('#contact')
 function showContact() {
     contact.classList.replace('hide','section-one__contact')
 }
-setTimeout(showContact, 1500)
+setTimeout(showContact, 1000)
 
 // || SectionTwo fadeIns ||
 const sectionTwo = document.querySelector('#section-two')

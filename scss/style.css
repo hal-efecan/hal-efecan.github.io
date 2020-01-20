@@ -865,8 +865,8 @@ a {
 .section-one__contact__email {
   color: white;
   position: relative;
-  -webkit-animation: appear 650ms;
-          animation: appear 650ms;
+  -webkit-animation: appear 250ms;
+          animation: appear 250ms;
 }
 
 .section-one__contact__email:before {
@@ -876,6 +876,8 @@ a {
   height: 2px;
   background-color: rgba(14, 219, 234, 0.534);
   bottom: -2px;
+  -webkit-animation: appear 0ms;
+          animation: appear 0ms;
 }
 
 .section-two {
