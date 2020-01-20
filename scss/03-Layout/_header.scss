@@ -2,9 +2,10 @@ header {
     position: relative;
     @include flexEnd(row);
     height: 60px;
-    width: 98vw;
+    width: 90vw;
 
     @media (min-width: 768px) {
         @include flexAround(row);
+        width: 90vw;
     }
 }
