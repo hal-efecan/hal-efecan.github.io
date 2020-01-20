@@ -9,10 +9,15 @@ html {
 }
 
 body {
-    max-width: 1150px;
+    width: 100%;
+    overflow-x: hidden;
     margin: 0 auto;
     background-color: background-color(background-colorA);
     font-family: 'Ubuntu', sans-serif;
+
+    @media (min-width: 1150px) {
+        max-width: 1150px;
+    }
 }
 
 .hide {
