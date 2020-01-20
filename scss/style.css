@@ -305,6 +305,7 @@ ul {
 
 .container {
   width: 100%;
+  overflow: hidden;
 }
 
 @media (min-width: 950px) {
