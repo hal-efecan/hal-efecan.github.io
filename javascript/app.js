@@ -80,6 +80,13 @@ function showSectionThree() {
 }
 setTimeout(showSectionThree, 2500)
 
+// || SectionThree fadeIns ||
+const sectionThreePoint5 = document.querySelector('#section-three-point5')
+function showSectionThreePoint5() {
+    sectionThreePoint5.classList.replace('hide','section-three-point5')
+}
+setTimeout(showSectionThreePoint5, 2750)
+
 // || SectionFour fadeIns ||
 const sectionFour = document.querySelector('#section-four')
 function showSectionFour() {

@@ -4,13 +4,19 @@
         width: 100%;
         margin-left: 30%;
     }
+    @media (min-width: 1366px) {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0;
+        width: 70%;
+    }
 }
 
 .navigation-large__ul {
     @media (min-width: 768px) {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
         .navigation__ul__link:nth-child(1) {
             @media (min-width: 768px) {

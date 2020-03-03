@@ -1,0 +1,211 @@
+// section-three
+.section-three-point5 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto 15px auto;
+    animation: appear 500ms;
+    
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+    @media (min-width: 1366px) {
+        margin: 15px auto 50px auto;
+    }
+}
+
+// section-three__title
+.section-three-point5__title {
+    font-weight: font-weight(bold);
+    color: text-color(text-color-blue);
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    margin: 0 15px 0px 15px;
+
+    @media (min-width: 768px) {
+        width: 25%;
+    }
+}
+
+.section-three-point5__wrapper {
+    @media (min-width: 768px) {
+        width: 75%;
+    }
+}
+
+// section-three__content
+.section-three-point5__content {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px 15px 15px;
+    height: 250px;
+    width: 100%;
+    background-color: inherit;
+    position: relative;
+
+    @media (min-width: 375px) {
+        height: 260px;
+    }
+    @media (min-width: 768px) {
+        margin: 0 0 0 0;
+        height: 250px;
+    }   
+    @media (min-width: 1024px) {
+        height: 300px;
+    }
+    @media (min-width: 1366px) {
+        height: 350px;
+    }
+}
+
+.section-three-point5__headline__spotify {
+    box-shadow: 1px 1px 3px 0px #242b31;
+    border-radius: 1px;
+    width:250px;
+    margin: 10px 0 0 0;
+    display: block;
+
+    @media (min-width: 375px) {
+        width:275px;
+    }
+    @media (min-width: 768px) {
+        width: 350px;
+        margin: 0;
+    }
+    @media (min-width: 1024px) {
+        width: 450px;
+    }
+    @media (min-width: 1366px) {
+        width: 525px;
+        margin: 0;
+    }
+}
+
+.section-three-point5__content__title {
+    color: white;
+    font-weight: 700;
+    margin: 0 0 7.5px 0;
+    right:0;
+    font-size: 1.3rem;
+
+    @media (min-width: 375px) {
+        font-size: 1.4rem;
+    }
+    @media (min-width: 768px) {
+        position: absolute;
+        right: 25px;
+        font-size: 1.55rem;
+        top: 40%;
+    }
+    @media (min-width: 1024px) {
+        font-size: 1.8rem;
+    }
+    @media (min-width: 1366px) {
+        font-size: 2.3rem;
+    }
+}
+
+.section-three-point5__description {
+    align-items: center;
+    color: text-color(text-color-grey);
+    font-size: 0.65rem;
+    line-height: .95rem;
+    letter-spacing: 0.025rem;
+    padding: 7.5px;
+    width: 225px;
+    background-color: rgb(68, 73, 85);
+    box-shadow: 1px 1px 3px 0px #212d41fc;
+    position: absolute;
+    border-radius: 1px;
+    right: 25px;
+    top: 47.5%;
+
+    @media (min-width: 375px) {
+        width: 270px;
+        top: 55%;
+        font-size: 0.75rem;
+    }
+    @media (min-width: 768px) {
+        width: 350px;
+        font-size: 0.8rem;
+    }
+    @media (min-width: 1024px) {
+        width: 400px;
+        font-size: 0.9rem;
+    }
+    @media (min-width: 1366px) {
+        width: 500px;
+        font-size: 0.95rem;
+        line-height: 1.5rem;
+        top: 65%;
+    }
+}
+
+.section-three-point5__content__icon-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+    width: 42.5px;
+
+    @media (min-width: 768px) {
+        bottom: 10px;
+    }
+    @media (min-width: 1024px) {
+        bottom: 5px;
+    }
+    @media (min-width: 1366px) {
+        bottom: 10px;
+    }
+}
+
+.section-three-point5__content__icon-gh,
+.section-three-point5__content__icon-el {
+    width: 18px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section-three-point5__list-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+    margin: 0 0 0 15px;
+    padding:0;
+
+    @media (min-width: 320px) {
+        width: 100%;
+    }
+
+    @media (min-width: 375px) {
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        margin: 0 0 0 0;
+        display: flex;
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    li {
+        font-size: 0.6rem;
+        color: white;
+        border: 1px solid turquoise;
+        padding: 5px;
+        border-radius: 3px;
+
+        @media (min-width: 320px) {
+            margin: 0 5px 0 0;
+        }
+        @media (min-width: 375px) {
+            margin: 0 10px 0 0;
+        }
+        @media (min-width: 768px) {
+            // margin: 0 10px 0 0;
+        }
+    }
+}
